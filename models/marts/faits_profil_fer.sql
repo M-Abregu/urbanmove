@@ -5,4 +5,4 @@ select
     cat_jour,
     heure,
     pourcentage_validation
-from {{ ref('stg_profil_fer_clean') }};
+from {{ ref('stg_profil_fer_clean') }}

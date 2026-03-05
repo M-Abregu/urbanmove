@@ -4,5 +4,5 @@ select
     id_group_ligne,
     cat_jour,
     heure,
-    pourc_validations
-from {{ ref('stg_profil_surface') }}
+    pourcentage_validation
+FROM {{ ref('stg_profil_surface_clean') }}

@@ -5,5 +5,5 @@ SELECT
     tt.id_titre
 FROM {{ ref('stg_nb_surface_clean') }} nbs
 
-LEFT JOIN {{ ref('dim_titres_transports') }} tt
+LEFT JOIN {{ ref('dim_titres_transport') }} tt
 ON nbs.nom_titre = tt.nom_titre
