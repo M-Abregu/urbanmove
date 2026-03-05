@@ -5,4 +5,4 @@ select
     cat_jour,
     heure,
     pourc_validations
-from {{ ref('stg_profil_surface') }};
+from {{ ref('stg_profil_surface') }}
