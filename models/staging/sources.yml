@@ -29,22 +29,3 @@ sources:
         description: "Données détaillées des arrêts mais table qui sert surtout pour faire le lien entre id_ligne et id_arrêt"
 
 
-
-models:
-    - name: my_first_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
-
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
