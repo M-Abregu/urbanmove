@@ -1,4 +1,3 @@
-
 version: 2
 
 sources:
@@ -15,6 +14,8 @@ sources:
         description: "Note de satisfaction des usagers sur certaines lignes"
       - name: liste_transporteurs
         description: "Liste des différents opérateurs"
+      - name: meteo_paris
+        description: "Conditions météo par jour su r paris pour 2023 et 2024"
       - name: nb_fer
         description: "Nombre de validation de titre de transport par jour et par arrêt pour le réseau ferré"
       - name: nb_surface
@@ -27,5 +28,7 @@ sources:
         description: "Données détaillées sur les lignes"
       - name: stops
         description: "Données détaillées des arrêts mais table qui sert surtout pour faire le lien entre id_ligne et id_arrêt"
+
+
 
 
